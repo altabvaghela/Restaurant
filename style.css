@@ -1,0 +1,124 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.section-header{
+
+    width: 100%;
+    background-image: linear-gradient(rgba(26, 26, 39, 1), rgba(26, 26, 39, 0.7)), url(./images/bg-hero.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.nav-text .nav-h1 {
+    line-height: 1.2;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 50px;
+}
+.nav-text{
+    /* margin-top: 60px; */
+    /* margin-left: 40px; */
+    color: #ffffff;
+    text-align: center;
+}
+.nav-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+/* text-align: center; */
+}
+.card .fa-solid{
+    color:#FEA116;
+    font-size: 50px;
+}
+.card .card-title{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card{
+    cursor: pointer;
+    background-color: #F1F8FF;
+    box-shadow: 10px 10px 10px #F4F4F4;
+}
+.about-section .fa-solid{
+    color: #FEA116;
+}
+.about-section h1{
+    font-weight: 600;
+}
+.about-main-h1{
+    text-align: center;
+    color: #FEA116;
+    text-transform: capitalize;
+}
+.menu-section h1{
+    text-align: center;
+    color: #0f172b;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-family: "Nunito Sans", sans-serif;
+}
+.menu-section h2{
+    text-align: center;
+    color: #FEA116;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.table-section{
+background-color: #0f172b;
+
+}
+.table-h1{
+    text-align: center;
+    color: #FEA116;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-family: "Nunito Sans", sans-serif;
+}
+.team-member-h1{
+    text-align: center;
+    color: #FEA116;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-family: "Nunito Sans", sans-serif;
+}
+.footer-section{
+    background-color: #0f172b;
+    color: white;
+}
+.footer-section li,a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    list-style: none;
+    margin: 10px;
+}
+.footer-section h5{
+    /* text-align: start; */
+    color: #FEA116;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+.footer-section li::before {
+    content: ">";
+    margin-right: 8px;
+    color: #fff;
+}
+.footer-h1{
+    
+    text-align: center;
+    color: #FEA116;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-family: "Nunito Sans", sans-serif;
+}
+.footer-icon .fa-brands:hover{
+    background-color:#F1F8FF;
+    color:  #FEA116;
+}
